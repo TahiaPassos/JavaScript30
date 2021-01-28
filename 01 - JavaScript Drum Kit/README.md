@@ -73,5 +73,8 @@ Ao pressionar determinadas teclas um som é emitido para cada uma delas.
     keys.forEach(key => key.addEventListener('transitionend', removeTransition));
     
     //Adiciona um eventListener no objeto window para saber se uma tecla foi pressionada. Caso as teclas pré-determinadas forem pressioandas, a função será ativada.
-    window.addEventListener('keydown', playSound);
+    window.addEventListener('keydown', playSound);  
     
+  
+  
+Caso haja interesse, segue [meu LinkedIn](https://www.linkedin.com/in/tahiana-passos/)
