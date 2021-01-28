@@ -3,7 +3,7 @@
 Neste exercício é feita uma bateria virtual com a utilização de **HTML,CSS e JavaScript**.  
 Ao pressionar determinadas teclas um som é emitido para cada uma delas.
 
-Código completo do arquivo de JavaScript:
+### Código completo do arquivo de JavaScript:
     
     function playSound(event) {
       const audio = document.querySelector(`audio[data-key="${event.keyCode}"]`); 
@@ -25,7 +25,7 @@ Código completo do arquivo de JavaScript:
     window.addEventListener('keydown', playSound);
     
 
-Função que fará o som ser emitido: 
+### Função que fará o som ser emitido: 
     
     /*Função de Callback - será acionada quando ocorrer determinado evento 
     (nesse caso, o "keydown", ou seja, a tecla sendo pressioanda*/
@@ -51,7 +51,7 @@ Função que fará o som ser emitido:
       // Adiciona a classe "playing" no elemento com a classe "key" para ativar a estilização definida no css para a classe playing.
     }
 
-Função que irá remover a classe "playing":  
+### Função que irá remover a classe "playing":  
 
      function removeTransition(event) {
       if (event.propertyName !== "transform") return; 
@@ -62,7 +62,7 @@ Função que irá remover a classe "playing":
     }
     
 
-Adicionando os Event Listeners:
+### Adicionando os Event Listeners:
 
 
     const keys = document.querySelectorAll('.key');
