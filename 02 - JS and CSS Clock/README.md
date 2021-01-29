@@ -1,3 +1,3 @@
 # Clock 
 
-![Imagem do Projeto](../Clock.png)
+![Projeto](Clock.PNG)
