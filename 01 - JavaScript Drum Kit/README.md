@@ -1,5 +1,5 @@
 # Drum Kit
-![foto do projeto](../DrumKit.PNG) 
+![foto do projeto](./DrumKit.PNG) 
 
 
 
