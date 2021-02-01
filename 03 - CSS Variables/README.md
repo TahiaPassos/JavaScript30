@@ -1,3 +1,4 @@
 # CSS Variables
 
-![Css Variables](./CssVariables.PNG)
+![Css Variables](./CssVariables.PNG)  
+
